@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Coffee Shop Style Guide</title>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Coffee Shop Style Guide</h1>
+        <p>Design tokens and reuseable styles for the website.</p>
+
+        <!-- Colour Palette -->
+        <section id="colours" class="m-2 p-2 shadow-dark">
+            <h2>Colour Pallette</h2>
+
+            <article class="swatches d-flex gap-2">
+
+                <!-- Colour Swatch-->
+                <div class="swatch">
+                    <div class="swatch-value bg-primary"></div>
+                    <p class="swatch-name">Primary</p>
+                </div>
+
+                <!-- Colour Swatch-->
+                <div class="swatch">
+                    <div class="swatch-value bg-light"></div>
+                    <p class="swatch-name">Light</p>
+                </div>
+                
+                <!-- Colour Swatch-->
+                <div class="swatch">
+                    <div class="swatch-value bg-dark"></div>
+                    <p class="swatch-name">Dark</p>
+                </div>
+
+                <!-- Colour Swatch-->
+                <div class="swatch">
+                    <div class="swatch-value bg-mute"></div>
+                    <p class="swatch-name">Muted</p>
+                </div>
+                
+            </article>
+        </section>
+
+        <!-- Fonts and Typography -->
+        <section id="typography" class="m-2 p-2 shadow-dark">
+            <h2>Typography</h2>
+
+            <h1 class="heading-xl">Heading XL - Coffee Shop</h1>
+            <h2 class="heading-lg">Heading LG - Freshly Brewed</h2>
+            <p> Body Test - Used for general descriptions</p>
+            <p class="text-muted bg-dark">Muted text - for subtle details </p>
+        </section>
+        
+        <!-- Spacing and Sizing -->
+         <section id="spacing" class="m-2 p-2 shadow-dark">
+            <h2>Spacing and Sizing</h2>
+
+            <div class="bg-muted p-0 m-1">.p-0 - No Padding</div>
+            <div class="bg-muted p-1 m-1">.p-1 - Small Padding</div>
+            <div class="bg-muted p-2 m-1">.p-2 - Normal Padding</div>
+            <div class="bg-muted p-3 m-1">.p-3 - Large Padding</div>
+         </section>
+
+         <!-- Layout Utils -->
+          <section id="layout" class="m-2 p-2 shadow-dark">
+            <h2>Layout Utils</h2>
+
+            <div class="d-flex flex-between">
+                <strong>Label</strong> <!-- Bold -->
+                <span>Value</span> <!-- Text -->
+            </div>
+
+            <div class="grid-2col gap-2 m-2">
+                <div class="bg-muted p-2">col 1</div>
+                <div class="bg-muted p-2">col 2</div>
+            </div>
+
+            <div class="grid-3col gap-2 m-2">
+                <div class="bg-muted p-2">col 3</div>
+                <div class="bg-muted p-2">col 4</div>
+                <div class="bg-muted p-2">col 5</div>
+             </div>
+          </section>
+
+          <!-- Buttons and Links -->
+          <section id="buttons" class="m-2 p-2 shadow-dark">
+                <h2>Buttons and Links</h2>
+           
+                <button class="btn btn-primary">Primary Button</button>
+                <button class="btn btn-secondary">Secondary Button</button>
+                <a href="#" class="link">Inline Link</a>
+          </section>
+
+          <!-- Components -->
+           <section id="components" class="m-2 p-2 shadow-dark">
+            <h2>Components</h2>
+           
+
+           <!-- Product Image -->
+            <figure class="product-image">
+                <img src="food-wood-art-414720.jpg"alt="Coffee Cup">
+                <figcaption class="product-tag">50% off - &euro;2.50</figcaption> 
+            </figure>
+
+            <p>Tag Styles:</p>
+            <ul class="tags m-1">
+                <li class="tag-item">Tag 1</li>
+                <li class="tag-item">Tag 2</li>
+            </ul>
+
+            <div class="tags m-1">
+                <a href="" class="tag-item">Tag 1</a>
+                <a href="" class="tag-item">Tag 2</a>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
