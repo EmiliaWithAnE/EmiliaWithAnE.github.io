@@ -75,7 +75,6 @@
 /* Css Reset */
 *{
     box-sizing: border-box;
-    /* will force elements to scale from the border instead */
     margin: 0;
     padding: 0;
 }
@@ -157,12 +156,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .grid-2col {
     display:grid;
-    grid-template-columns: repeat(2, 1fr); /* repeat 1fr twice */
+    grid-template-columns: repeat(2, 1fr); 
 }
 
 .grid-3col {
     display:grid;
-    grid-template-columns: repeat(3, 1fr); /* repeat 1fr twice */
+    grid-template-columns: repeat(3, 1fr); 
 }
 
 /************************** SPACING **************************/
@@ -183,12 +182,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /************************** SWATCHES **************************/
 .swatches {
-    display: flex; /* organizes children elements in a line */
+    display: flex; 
     gap: 1rem;
 }
 .swatch .swatch-value {
     aspect-ratio: 1/1;
-    width: 4rem; /*em - Root font size (16px) */
+    width: 4rem; 
     border-radius: 100%;
     box-shadow: var(--shadow-dark);
 }
