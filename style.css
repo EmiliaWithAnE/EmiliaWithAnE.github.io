@@ -1,22 +1,23 @@
 /* Imports the Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* Variables for this website */
 :root {
-    --primary: #7b4b2d;
-    --primary-tint: #9d6b4c; 
-    --primary-shade: #522d17;
+    --primary: rgb(23, 102, 137);
+    --primary-tint: #4480a3; 
+    --primary-shade: #163f57;
 
 
     --light: #ffffff;
-    --dark: #363029; 
+    --dark: #354449; 
 
-    --muted: #efeeed;
-    --muted-tint: #f8f6f5;
-    --muted-shade: #c8c6c5;
+    --muted: #e2e9eb;
+    --muted-tint: #f1f7f8;
+    --muted-shade: #c1d3d8;
 
-    --font-normal: Roboto, Arial, sans-serif;
-    --font-heading: "Noto Serif", serif;
+    --font-normal: Verdana, Arial, sans-serif;
+    --font-heading: "Montserrat", serif;
     
     --space-0: 0; /* 0px */
     --space-1: 0.5rem; /* 8px */
@@ -34,7 +35,6 @@
 /************************** COMPONENTS **************************/
 .product-image {
     position:relative;
-    /* This will tell the product-tag to behave*/
 }
 
 
@@ -49,18 +49,6 @@
     box-shadow: var(--shadow-dark)
 }
 
-.product-image .product-tag{
-    background-color: var(--dark);
-    color: var(--light);
-    box-shadow: var(--shadow-light);
-
-    padding: var(--space-1) var(--space-2);
-    border-radius:var(--space-3);
-
-    position:absolute;
-    top:var(--space-2);
-    left:var(--space-2)
-}
 
 .tags {
     display: flex;
