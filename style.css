@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: repeat(3, 1fr); 
 }
 
-/************************** LOGO **************************/
+/************************** BANNER **************************/
 
 .logo a{
     display: inline-block;
@@ -184,49 +184,57 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.8;
 }
 
-/************************** NAVIGATION **************************/
-
-.main-banner {
-    background-color: #176689;
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    color: white;
+body {
+	display: grid;
+	grid-template-rows: 20vh auto; /* adjust as needed */
+	grid-template-columns: auto;
+	grid-template-areas: "banner" "body";
+	
+	margin: 0;
 }
 
-
-
-.nav {
-    flex-grow: 1;             
-    display: flex;
-    justify-content: flex-end; 
+header {
+	grid-area: banner;
+	background-color: var(--primary);
+	
+	display: grid;		
+	grid-template-rows: 100%;
+	grid-template-columns: 1fr 2fr; 
+	grid-template-areas: "logo nav";
 }
 
-.nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;            
-    gap: 20px;
+figure {
+	grid-area: logo;
+	margin: 1rem auto 1rem 2rem;
 }
 
-.nav a{ 
-    background-color: #ffffff;
-    overflow: hidden;
-}
-
-.nav a{
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+nav {
+	grid-area: nav;
+	align-content: center;	
 }
 
 .nav a:hover{
-    color: #ffffff;
+    color: var(--muted-shade);
 }
+
+ul {
+	display: flex;	
+	justify-content: space-around; 
+	list-style-type: none;	
+}
+
+li a {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+main {
+	grid-area: body;
+}
+
+
 
 /************************** SPACING **************************/
 .m-0 { margin: var(--space-0); }
