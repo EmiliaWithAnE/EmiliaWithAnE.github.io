@@ -190,17 +190,13 @@ main {
 
 /************************** BOXES **************************/
 
-.box {
+.container a{
     background-color: var(--primary);
     padding: 6rem;
     flex: 0 1 100%;
     margin: 50px 50px 20px 20px;
-}
-
-.box a{
     color: var(--light);
     text-decoration: none;
-
 }
 /************************** LINKS **************************/
 
