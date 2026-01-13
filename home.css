@@ -203,6 +203,17 @@ main {
     justify-content: center;
     text-align: center;
 }
+
+.course {
+    background-color: var(--primary);
+    padding: 5rem;
+    flex: 0 1 100%;
+    margin: 20px 20px;
+    color: var(--light);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
 .box.centered {
     text-align: center;
 }
@@ -212,7 +223,17 @@ main {
     margin-bottom: 10px;
 }
 
+/************************** EVENT **************************/
 
+.event{
+    color: var(--primary-shade);
+}
+
+.event img{float: left;}
+
+.event_text{
+    text-align: right;
+}
 /************************** LINKS **************************/
 
 a:visited {
