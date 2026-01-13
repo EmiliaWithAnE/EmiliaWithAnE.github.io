@@ -215,37 +215,6 @@ a:active {
     color: var(--muted-shade);
 }
 
-/************************** SEARCH **************************/
-
-.Search{
-    align-items: center;
-}
-
-.Search input[type=text] {
-    margin: 0 auto;
-    display: block;
-    font-size: 17px;
-    border: 2px solid black;
-    border-radius: 4px;
-    padding: 10px;
-    width: 55%;
-}
-
-body {
-    display: grid;
-    grid-template-rows: 30vh auto;
-    grid-template-columns: auto;
-    grid-template-areas:
-        "banner"
-        "body";
-    margin: 0;
-}
-
-.Banner{
-    max-width: 1400px;
-    margin: auto;
-}
-
 /************************** SPACING **************************/
 .m-0 { margin: var(--space-0); }
 .m-1 { margin: var(--space-1); }
