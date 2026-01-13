@@ -228,8 +228,9 @@ main {
 .event{
     color: var(--primary-shade);
 }
-
-.event img{float: left;}
+.event figcaption {
+    font-size: 3rem;
+}
 
 .event_text{
     text-align: right;
