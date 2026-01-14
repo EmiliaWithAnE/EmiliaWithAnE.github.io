@@ -223,6 +223,44 @@ main {
     margin-bottom: 10px;
 }
 
+/************************** CONTACT FORM **************************/
+
+h1 {
+    color: var(--primary-shade);
+    text-align: center;
+}
+.contact-form {
+    background-color: var(--primary); 
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--light);
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;                
+}
+
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea {
+    padding: 15px;             
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #b6b0be;
+
+}
+
+.main-hero-area {
+    margin-top: 40px;          
+}
+
 /************************** EVENT **************************/
 
 .event{
