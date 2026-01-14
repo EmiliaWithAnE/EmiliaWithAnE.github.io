@@ -267,12 +267,17 @@ h1 {
     color: var(--primary-shade);
 }
 .event figcaption {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .event_text{
-    text-align: right;
+    text-align: justify;
+    font-size: 1rem;
+    padding-right: 5%;
+    align-self: center;
+    color: var(--primary-shade);
 }
+
 /************************** LINKS **************************/
 
 a:visited {
